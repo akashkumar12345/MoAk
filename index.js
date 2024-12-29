@@ -39,12 +39,12 @@ function playSound(key) {
 }
 
 // Add event listeners to drum buttons for clicks
-// for (var i = 0; i < docLength; i++) {
-//     drumButtons[i].addEventListener("click", function () {
-//         var buttonInnerHTML = this.innerHTML;
-//         playSound(buttonInnerHTML);
-//     });
-// }
+ for (var i = 0; i < docLength; i++) {
+     drumButtons[i].addEventListener("click", function () {
+         var buttonInnerHTML = this.innerHTML;
+         playSound(buttonInnerHTML);
+     });
+ }
 
 
 // Add event listener for keydown events
